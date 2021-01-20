@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CARCARE: Contact us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="topheader">
+            <H2>Welcome to <br>CARCARE</H2>
+            We deliver the car valete to your door step
+        </div>
+        <div class="Menu">
+            <ul style="text-align: center;margin:20px; font-size: 25px;">
+                <li style="display: inline;">
+                    <a href="index.html">Home</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="Services.html">Services</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="SubmitRequest.html">Submit a rqeuest</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="ContactUS.html">Contact us</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="AboutUs.html">About us</a>
+                </li>
+            </ul>
+        </div>
+        <br><br>
+        <h2>Contact Form</h2>
+        <form class="ConForm" action="mailto:azoarob@gmail.com">
+            <div class="FormGroup">
+                <label>Firs Name:</label>
+                <input type="text" name="First Name">
+            </div>
+            <div class="FormGroup">
+                <label>Surname:</label>
+                <input type="text" name="Surname">
+            </div>
+            <div class="FormGroup">
+                <label>Email</label>
+                <input type="email" name="Email">
+            </div>
+            <div class="FormGroup">
+                <label>Message</label>
+                <input type="text" name="Message">
+                <br><br>
+                <p id="demo" style="display: none;">Request form submitted. You will hear from us very soon.</p>
+                <input type="submit" value="Submit" onclick="document.getElementById('demo').style.display='block'" >
+<!--          <input type="submit" value="Submit"> -->
+
+            </div>
+        </form>
+
+    </body>

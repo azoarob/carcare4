@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CARCARE: Mobile Steam Car Wash</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="topheader">
+            <H2>Welcome to <br>CARCARE</H2>
+            We deliver the car valete to your door step
+        </div>
+        <div class="Menu">
+            <ul style="text-align: center;margin:20px; font-size: 25px;">
+                <li style="display: inline;">
+                    <a href="index.html">Home</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="Services.html">Services</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="SubmitRequest.html">Submit a rqeuest</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="ContactUS.html">Contact us</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="AboutUs.html">About ss</a>
+                </li>
+            </ul>
+        </div>  
+        <br><br> 
+        <h2>Request Form</h2>
+            <form class="MyForm"  action="mailto:azoarob@gmail.com">
+                <div class="FormGroup">
+                    <label>Firs Name:</label>
+                    <input type="text" name="First Name">
+                </div>
+                <div class="FormGroup">
+                    <label>Surname:</label>
+                    <input type="text" name="Surname">
+                </div>
+                <div class="FormGroup">
+                    <label>Email</label>
+                    <input type="email" name="Email">
+                </div>
+                <div class="FormGroup">
+                    <label>Services</label>
+                    <select name= Services>
+                    <option value="Quick">Quick Car Wash £10.00 </option>
+                    <option value="Mini">Mini Valet From £20.00 </option>
+                    <option value="Silver">Silver Valet From £45.00 </option>
+                    <option value="Gold">Gold Valet From £50.00 </option>
+                    </select>
+                    <br><br>
+                    <p id="demo" style="display: none;">Request form submitted. You will hear from us very soon.</p>
+                    <input type="submit" value="Submit" onclick="document.getElementById('demo').style.display='block'" >
+
+                </div>
+            </form>
+        
+    </body>

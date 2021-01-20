@@ -1,0 +1,61 @@
+html{
+    background: url("background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+/*.BGimage{
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+*/  
+
+body{
+
+    /*text-align: center;*/
+    padding-left: 30px;
+    margin-top: 0%;
+    color: rgb(127, 152, 197);
+    margin: auto;
+
+}
+.topheader{
+    font-family: cursive;   
+    text-align: center;
+    margin: auto;
+}
+.menu{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    border:1px #ccc solid;
+    padding: 0px;
+    margin: 0%;
+    font-size: 30px;
+}
+
+.MyForm{
+    padding: 20px;
+}
+.ConForm{
+    padding: 20px;
+}
+.ConForm label{
+    display: block;
+}
+.MyForm label{
+    display: block;
+}
+.FomrGroup{
+    padding-bottom: 15px;
+}
+.price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bgcolour{
+     margin-right: 60%;
+    background-color: rgba(42, 43, 42, 0.678);
+}
